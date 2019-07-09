@@ -16,7 +16,7 @@ messages for your growing codebase)
 If you cannot relate to one or all of the above mentioned points don't be afraid. The coding challenge is 
 addressed to all developing levels from junior to senior level! We will evaluate whatever you deliver.
 
-##Tasks
+## Tasks
 1. Setup up a create-react-app boilerplate (★☆☆☆☆)
    * https://github.com/facebook/create-react-app
 1. Build something fun or interesting (★★★☆☆)
@@ -30,7 +30,7 @@ addressed to all developing levels from junior to senior level! We will evaluate
 1. Implement Redux (★★★★☆)
 
 ## Next steps
-Fork the repo and then: be creative, have fun codind! And if you are not completely in the tunnel, let 
+Fork the repo and then: be creative and have fun coding! And if you are not completely in the tunnel, let 
 us know when we can expect a result, which should be submitted as a PR to this repo.  
 
 
