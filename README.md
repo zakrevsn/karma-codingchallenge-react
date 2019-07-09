@@ -10,21 +10,21 @@ The evaluation of the submitted result will be based on the following criteria:
 * how are your commits organized (don't use one bulk commit at the end of the development, use meaningful commit 
 messages for your growing codebase)
 * how are you managing to work with `npm` and third-party packages
-* how are your components and your code structured (HOC vs dump components, folder/file structure, etc.)
-* how much are you committed to clean code and good-practice patterns
+* how are your components and your code structured (HOC vs functional components, folder/file structure, etc.)
+* how much are you committed to clean code and good-practice programming patterns
 
-If you cannot relate to one or all of the above mentioned points don't be afraid. The coding challenge is 
+If you cannot relate to all of the above mentioned points don't be afraid. The coding challenge is 
 addressed to all developing levels from junior to senior level! We will evaluate whatever you deliver.
 
 ## Tasks
 1. Setup up a create-react-app boilerplate (★☆☆☆☆)
    * https://github.com/facebook/create-react-app
 1. Build something fun or interesting (★★★☆☆)
-   * Surprise us. You app can be anything, best related to one of your hobbies or similar ;)
+   * Surprise us. Your app can be anything, best related to one of your hobbies or similar ;)
 1. Install some third-party packages to your app (★★☆☆☆), e.g.
    * A design library like Material-Ui (https://material-ui.com/components/box/)
-   * A router for a multi-page design (included in create-react-app)
-   * An http client like axios (https://github.com/axios/axios) to get fake data from an api like
+   * A router for a multi-page apps (React Router is included in create-react-app)
+   * An http client like axios (https://github.com/axios/axios) to get and render data from a dummy api like
     https://dummy.restapiexample.com   
    * Sky is the limit... 
 1. Implement Redux (★★★★☆)
