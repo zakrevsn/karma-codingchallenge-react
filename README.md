@@ -30,7 +30,7 @@ addressed to all developing levels from junior to senior level! We will evaluate
 1. Implement Redux (★★★★☆)
 
 ## Next steps
-Fork the repo and then: be creative, have fun codind! And if you are not completely in the tunnel, let 
+Fork the repo and then: be creative and have fun coding! And if you are not completely in the tunnel, let 
 us know when we can expect a result, which should be submitted as a PR to this repo.  
 
 
