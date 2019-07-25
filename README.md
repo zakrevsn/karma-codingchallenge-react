@@ -1,37 +1,68 @@
-# Coding Challenge Web Frontend (React.js)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Dear hiring developer,
+## Available Scripts
 
-you can proudly claim you reached level 2 in the hiring process of becoming a 
-**Karma** developer. That being said, we would like to see some convincing code in order to
-evaluate your programming skills. Nothing too fancy, don't invest more time than you are willing to.
+In the project directory, you can run:
 
-The evaluation of the submitted result will be based on the following criteria:
-* how are your commits organized (don't use one bulk commit at the end of the development, use meaningful commit 
-messages for your growing codebase)
-* how are you managing to work with `npm` and third-party packages
-* how are your components and your code structured (HOC vs functional components, folder/file structure, etc.)
-* how much are you committed to clean code and good-practice programming patterns
+### `npm start`
 
-If you cannot relate to all of the above mentioned points don't be afraid. The coding challenge is 
-addressed to all developing levels from junior to senior level! We will evaluate whatever you deliver.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Tasks
-1. Setup up a create-react-app boilerplate (★☆☆☆☆)
-   * https://github.com/facebook/create-react-app
-1. Build something fun or interesting (★★★☆☆)
-   * Surprise us. Your app can be anything, best related to one of your hobbies or similar ;)
-1. Install some third-party packages to your app (★★☆☆☆), e.g.
-   * A design library like Material-Ui (https://material-ui.com/components/box/)
-   * A router for a multi-page apps (React Router is included in create-react-app)
-   * An http client like axios (https://github.com/axios/axios) to get and render data from a dummy api like
-    https://dummy.restapiexample.com   
-   * Sky is the limit... 
-1. Implement Redux (★★★★☆)
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-## Next steps
-Fork the repo and then: be creative and have fun coding! And if you are not completely in the tunnel, let 
-us know when we can expect a result, which should be submitted as a PR to this repo.  
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
