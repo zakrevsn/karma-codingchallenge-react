@@ -14,7 +14,7 @@ export function move(move, newPosition) {
 
 export function returnToPosition(moveNumber) {
   return {
-    type: "RETUTN_TO_POSITION",
+    type: "RETURN_TO_POSITION",
     moveNumber
   };
 }
