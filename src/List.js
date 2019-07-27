@@ -1,13 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
+import Move from "./Move";
 class List extends React.Component {
   render() {
     let list = [];
 
     for (let i = 0; i < this.props.moves.length; i = i + 2) {
-      let moves = [<span key={i}>{this.props.moves[i]}</span>];
+      let moves = [<Move key={i} move={this.props.moves[i]} />];
       if (i + 1 < this.props.moves.length) {
-        moves.push(<span key={i + 1}>{this.props.moves[i + 1]}</span>);
+        moves.push(<Move key={i + 1} move={this.props.moves[i + 1]} />);
       }
       list.push(<li key={i}>{moves}</li>);
     }
