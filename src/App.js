@@ -6,7 +6,8 @@ import Board from "./Board.js";
 const Chess = require("react-chess");
 const ReactDOM = require("react-dom");
 class App extends React.Component {
-  componentDidMount() {
+  constructor(props) {
+    super(props);
     this.props.dispatch(setupGame(Chess.getDefaultLineup()));
   }
   render() {

@@ -3,7 +3,7 @@ export default function reducer(state, action) {
     return Object.assign({}, state, {
       turn: "white",
       moves: [],
-      positions: [action.postion],
+      positions: [action.position],
       currentMove: 0
     });
   }
