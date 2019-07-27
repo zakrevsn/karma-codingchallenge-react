@@ -15,7 +15,7 @@ class App extends React.Component {
       <div className="App">
         <div className="Boards">
           <Board />
-          <Board />
+          <Board rotated={true} />
         </div>
         <div className="List">
           <List />

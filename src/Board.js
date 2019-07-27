@@ -7,6 +7,7 @@ class Board extends React.Component {
     console.log(this.props);
     let chess = (
       <Chess
+        allowMoves={!this.props.rotated}
         pieces={this.props.positions[this.props.currentMove]}
         onMovePiece={(piece, fromSquare, toSquare) => {
           console.log(chess.props.pieces, piece, fromSquare, toSquare);
@@ -21,7 +22,11 @@ class Board extends React.Component {
         }}
       />
     );
-    return <div className="Board">{chess}</div>;
+    return (
+      <div className={"Board" + (this.props.rotated ? " rotated" : "")}>
+        {chess}
+      </div>
+    );
   }
 }
 function mapStateToProps(state) {

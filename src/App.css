@@ -17,7 +17,7 @@ body {
 .Boards {
   display: flex;
   height: 67vh;
-  width: 100vw;
+  width: 67vw;
   align-items: center;
 }
 .Board {
@@ -42,4 +42,10 @@ li.caption {
 }
 .List span {
   margin-right: 10px;
+}
+.rotated div {
+  transform: rotate(180deg);
+}
+.rotated svg {
+  transform: rotate(180deg);
 }
