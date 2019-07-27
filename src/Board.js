@@ -20,6 +20,12 @@ class Board extends React.Component {
             move(piece.name + " " + fromSquare + "-" + toSquare, pieces)
           );
         }}
+        onDragStart={piece =>
+          piece.name ===
+          (this.props.turn === "white"
+            ? piece.name.toUpperCase()
+            : piece.name.toLowerCase())
+        }
       />
     );
     return (
