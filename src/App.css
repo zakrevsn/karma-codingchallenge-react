@@ -17,8 +17,11 @@ body {
 .Boards {
   display: flex;
   height: 67vh;
-  width: 67vw;
+  width: 100vw;
   align-items: center;
+}
+.turn {
+  width: 30vw;
 }
 .Board {
   height: 100%;
