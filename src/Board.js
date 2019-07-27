@@ -11,11 +11,12 @@ class Board extends React.Component {
         onMovePiece={(piece, fromSquare, toSquare) => {
           console.log(chess.props.pieces, piece, fromSquare, toSquare);
           chess.props.pieces[piece.index] = piece.name + "@" + toSquare;
+          let pieces = chess.props.pieces.filter(
+            (p, index) => piece.index === index || toSquare !== p.substring(2)
+          );
+
           this.props.dispatch(
-            move(
-              piece.name + " " + fromSquare + "-" + toSquare,
-              chess.props.pieces
-            )
+            move(piece.name + " " + fromSquare + "-" + toSquare, pieces)
           );
         }}
       />
