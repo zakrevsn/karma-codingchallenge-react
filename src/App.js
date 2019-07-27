@@ -3,8 +3,8 @@ import "./App.css";
 import { connect } from "react-redux";
 import { setupGame } from "./actions";
 import Board from "./Board.js";
+import List from "./List.js";
 const Chess = require("react-chess");
-const ReactDOM = require("react-dom");
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,6 +16,9 @@ class App extends React.Component {
         <div className="Boards">
           <Board />
           <Board />
+        </div>
+        <div className="List">
+          <List />
         </div>
       </div>
     );

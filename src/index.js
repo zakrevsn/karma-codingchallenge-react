@@ -11,9 +11,7 @@ import * as serviceWorker from "./serviceWorker";
 export const store = createStore(reducer);
 ReactDOM.render(
   <Provider store={store}>
-    <div className="gamebody">
-      <App />
-    </div>
+    <App />
   </Provider>,
   document.getElementById("root")
 );
