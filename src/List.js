@@ -6,9 +6,11 @@ class List extends React.Component {
     let list = [];
 
     for (let i = 0; i < this.props.moves.length; i = i + 2) {
-      let moves = [<Move key={i} move={this.props.moves[i]} />];
+      let moves = [<Move key={i} number={i} move={this.props.moves[i]} />];
       if (i + 1 < this.props.moves.length) {
-        moves.push(<Move key={i + 1} move={this.props.moves[i + 1]} />);
+        moves.push(
+          <Move key={i + 1} number={i + 1} move={this.props.moves[i + 1]} />
+        );
       }
       list.push(<li key={i}>{moves}</li>);
     }
