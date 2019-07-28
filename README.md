@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live-Demo: https://my-chess-challenge.herokuapp.com/
 
-## Available Scripts
+Diese Schach-App lässt zwei Spieler zusammen spielen. Sie prüft wer am Zug ist. Gleichzeitig ist der Zug für den anderen Spieler blockiert. Das Brett erkennt die Figurenbewegung, ihre neue Position und dass Figuren geschlagen werden.
 
-In the project directory, you can run:
+Außerdem zeichnet die App den Spielverlauf auf und macht eine Liste der Züge. Jeder Zug ist ein Link, damit der Nutzer zum damaligen Zustand zurückkommen kann.
 
-### `npm start`
+Während der Entwicklung der App habe ich zwei Hauptschwierigkeiten mit dem Brett gehabt.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Die erste war, das rechte Brett umzudrehen.Mit CSS habe ich geschafft, das Brett und die Figuren umzudrehen. Aber die gegebene Bibliothek ist so gebaut, dass in dem Fall die Figuren auf dem zweiten Brett sich in der entgegengesetzten Richtung zur Maus bewegen. Deswegen ist nur ein Brett für beide Spieler aktiv, obwohl beide den aktuellen Spielzustand zeigen.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Die zweite Schwierigkeit war, dass das Brett die angegebene Höhe ignoriert, es orientiert sich an der Breite und verursacht dadurch Probleme mit dem Layout.
 
-### `npm test`
+Unter den gemachten Features bin ich besonders stolz auf die interaktive Züge-Liste, damit man zurück zu jedem Spielzustand kommen kann.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Nicht implementiert sind die Zugregeln. Man kann jede Figur beliebig bewegen (bzw. sind Rochade und en passant nicht möglich).
