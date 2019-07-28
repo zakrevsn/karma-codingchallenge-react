@@ -2,6 +2,8 @@ Live-Demo: https://my-chess-challenge.herokuapp.com/
 
 Diese Schach-App lässt zwei Spieler zusammen spielen. Sie prüft wer am Zug ist. Gleichzeitig ist der Zug für den anderen Spieler blockiert. Das Brett erkennt die Figurenbewegung, ihre neue Position und dass Figuren geschlagen werden.
 
+Den Spielzustand kontrolliert Redux.
+
 Außerdem zeichnet die App den Spielverlauf auf und macht eine Liste der Züge. Jeder Zug ist ein Link, damit der Nutzer zum damaligen Zustand zurückkommen kann.
 
 Während der Entwicklung der App habe ich zwei Hauptschwierigkeiten mit dem Brett gehabt.
