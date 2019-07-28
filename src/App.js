@@ -18,6 +18,7 @@ class App extends React.Component {
           <Board rotated={true} />
           <div className="turn">{this.props.turn} to move</div>
         </div>
+        <div className="space" />
         <div className="List">
           <List />
         </div>

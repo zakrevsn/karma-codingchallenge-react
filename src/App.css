@@ -32,6 +32,10 @@ body {
   height: 25vh;
 }
 
+.space {
+  height: 10vh;
+}
+
 .List ol {
   display: flex;
   flex-direction: column;
